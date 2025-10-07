@@ -7,3 +7,8 @@ Tianao Zhang, [Zhiteng Li](https://zhitengli.github.io), Xianglong Yan, [Haotong
 #### 🔥🔥🔥 News
 
 - **2025-10-07:** This repo is released.
+
+
+## 💡 Acknowledgements
+
+This work is released under the Apache 2.0 license.
