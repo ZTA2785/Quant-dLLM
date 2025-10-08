@@ -8,12 +8,11 @@ Tianao Zhang, [Zhiteng Li](https://zhitengli.github.io), Xianglong Yan, [Haotong
 
 - **2025-10-07:** This repo is released.
 
-
-![](figs/overview_v2.pdf)
 --- 
 
 > **Abstract:** Diffusion large language models (dLLMs), which offer bidirectional context and flexible masked-denoising generation, are emerging as a compelling alternative to autoregressive (AR) LLMs. However, like AR LLMs, their model sizes continue to grow, motivating weight compression for deployment. Although post-training quantization (PTQ) is effective for AR LLMs, directly transferring it to dLLMs at 2-bit leads to unsatisfactory performance. To tackle these challenges, we propose Quant-dLLM, an ultra-low-bit PTQ framework tailored to dLLMs. Since masked-denoising activations in dLLMs differ from the fully visible signals assumed by standard PTQ methods, we introduce Masked Calibration Simulation (MCS) to align calibration with the timestep-dependent masking, which yields more reliable calibrations. Moreover, we propose a Data-aware Any-order Quantizer (DAQ) that learns ultra-low-bit weight representations via an optimization algorithm. It performs iterative approximation guided by our simulated calibration data. In addition, under a strict 2-bit budget, we introduce Adaptive Blockwise Mixed Precision (ABMP), a sensitivity-based precision allocation scheme that adaptively assigns bit width across channel groups. When restricted to 2-bit precision, Quant-dLLM consistently achieves higher accuracy than state-of-the-art (SOTA) AR-transfer PTQ methods on dLLMs. The code and models will be available at: https://github.com/ZTA2785/Quant-dLLM
 
+![](figs/overview_v2.png)
 ---
 
 ## ⚒️ TODO
@@ -27,6 +26,26 @@ Tianao Zhang, [Zhiteng Li](https://zhitengli.github.io), Xianglong Yan, [Haotong
 - [x] [Results](#Results)
 - [x] [Citation](#Citation)
 - [x] [Acknowledgements](#Acknowledgements)
+
+## 🔎 Results
+
+<details>
+<summary>Our Quant-dLLM yields the best accuracy at equal memory cost on 7 general tasks. (click to expand)</summary>
+<p align="center">
+  <img width="100%" src="figs/teaser.png">
+</p>
+
+</details>
+
+<details>
+<summary>Our Quant-dLLM yields the best accuracy at equal memory cost on mathematical & scientific reasoning, and code generation datasets. (click to expand)</summary>
+
+<p align="center">
+  <img width="100%" src="figs/performance_comparison.png">
+</p>
+
+</details>
+
 
 ## Citation
 
