@@ -1,6 +1,18 @@
 # Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models
 
-[Tianao Zhang](https://zta2785.github.io/), [Zhiteng Li](https://zhitengli.github.io), Xianglong Yan, [Haotong Qin](https://htqin.github.io/), [Yong Guo](https://www.guoyongcs.com/), and [Yulun Zhang](http://yulunzhang.com/).
+<p align="center">
+  <a href="https://www.arxiv.org/abs/2510.03274">
+    <img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv&logoSvg">
+<!--   </a>
+  <a href="https://github.com/XIANGLONGYAN/PT2-LLM/releases/tag/paper">
+    <img src="https://img.shields.io/github/downloads/XIANGLONGYAN/PT2-LLM/total.svg"> -->
+  </a>
+  <a href="[https://github.com/ZTA2785/Quant-dLLM]">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=ZTA2785.Quant-dLLM&right_color=violet">
+  </a>
+</p>
+
+[Tianao Zhang](https://zta2785.github.io/), [Zhiteng Li](https://zhitengli.github.io), [Xianglong Yan](https://github.com/XIANGLONGYAN), [Haotong Qin](https://htqin.github.io/), [Yong Guo](https://www.guoyongcs.com/), and [Yulun Zhang](http://yulunzhang.com/).
 
 [[arXiv](https://arxiv.org/abs/2510.03274)] [models]
 
