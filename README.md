@@ -52,13 +52,12 @@
 If you find the code helpful in your research or work, please cite the following paper.
 
 ```
-@article{zhang2025quantdllmposttrainingextremelowbit,
+@article{zhang2025quantdllm,
       title={Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models}, 
       author={Tianao Zhang and Zhiteng Li and Xianglong Yan and Haotong Qin and Yong Guo and Yulun Zhang},
       year={2025},
       eprint={2510.03274},
       archivePrefix={arXiv},
-      primaryClass={cs.LG},
       url={https://arxiv.org/abs/2510.03274}, 
 }
 ```
